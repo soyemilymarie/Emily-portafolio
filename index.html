@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👩‍💻 Emily Bulgin – Programadora</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navegación -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">👩‍💻 Emily Bulgin – Programadora</div>
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero / Bienvenida -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <div class="hero-heart">💖</div>
+      <img src="avatar-dev.svg" alt="Avatar técnico" class="hero-avatar">
+      <h1 class="main-title">Emily Bulgin</h1>
+      <h1>¡Hola! Soy Emily Bulgin, programadora apasionada por crear soluciones eficientes 💡</h1>
+      <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section class="about" id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy una programadora creativa y dedicada, enfocada en el detalle y la eficiencia. Me encanta colaborar, aprender nuevas tecnologías y aportar soluciones innovadoras con un toque personal y alegre.</p>
+    <ul class="about-list">
+      <li>Edad: 17 años</li>
+      <li>Origen: Ciudad de Panamá 🇵🇦</li>
+      <li>Color favorito: Rosado 🎀</li>
+      <li>Mi perrito: Sccott 🐶</li>
+    </ul>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="skills" id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-category">
+      <h3>Lenguajes</h3>
+      <div class="skill-bar"><span>JavaScript</span><div class="bar" data-skill="90"></div></div>
+      <div class="skill-bar"><span>Inglés</span><div class="bar" data-skill="85"></div></div>
+      <div class="skill-bar"><span>HTML5</span><div class="bar" data-skill="95"></div></div>
+      <div class="skill-bar"><span>CSS3</span><div class="bar" data-skill="90"></div></div>
+    </div>
+    <div class="skills-category">
+      <h3>Frameworks</h3>
+      <div class="skill-icon">⚛️ React</div>
+      <div class="skill-icon">🟩 Node.js</div>
+      <div class="skill-icon">🌐 Express</div>
+    </div>
+    <div class="skills-category">
+      <h3>Herramientas</h3>
+      <div class="skill-icon">🐙 Git</div>
+      <div class="skill-icon">🐳 Docker</div>
+      <div class="skill-icon">☁️ Vercel</div>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experience" id="experiencia">
+    <h2>Experiencia</h2>
+    <div class="exp-item">
+      <h3>Desarrolladora Frontend – Tech Solutions</h3>
+      <span class="exp-date">2022 – Presente</span>
+      <ul>
+        <li>Desarrollo de interfaces responsivas con React y CSS moderno.</li>
+        <li>Colaboración en equipos ágiles para entregar productos de alta calidad.</li>
+        <li>Optimización de rendimiento y accesibilidad web.</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>Practicante de Desarrollo – CodeLab</h3>
+      <span class="exp-date">2021 – 2022</span>
+      <ul>
+        <li>Implementación de APIs REST con Node.js y Express.</li>
+        <li>Automatización de pruebas y despliegues.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="projects" id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <img src="project1.png" alt="Mockup Proyecto 1">
+        <h3>Gestor de Tareas</h3>
+        <p>Aplicación web para organizar tareas diarias con recordatorios y filtros inteligentes.</p>
+        <div class="tech-stack">React · Node.js · MongoDB</div>
+        <a href="#" class="btn-secondary">Ver en GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="project2.png" alt="Mockup Proyecto 2">
+        <h3>Portafolio Interactivo</h3>
+        <p>Mi portafolio personal con animaciones y diseño responsivo.</p>
+        <div class="tech-stack">HTML · CSS · JavaScript</div>
+        <a href="#" class="btn-secondary">Demo</a>
+      </div>
+      <div class="project-card">
+        <img src="project3.png" alt="Mockup Proyecto 3">
+        <h3>API de Clima</h3>
+        <p>Servicio REST para consultar el clima en tiempo real de cualquier ciudad.</p>
+        <div class="tech-stack">Node.js · Express · OpenWeather</div>
+        <a href="#" class="btn-secondary">Ver en GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educación & Certificaciones -->
+  <section class="education" id="educacion">
+    <h2>Educación & Certificaciones</h2>
+    <ul class="edu-list">
+      <li>
+        <strong>Centro Superate Fundacion Alberto Motta</strong> – Certificación de Excell y JavaScript
+      </li>
+      <li>
+        <strong>Certificación:</strong> JavaScript Algorithms and Data Structures – freeCodeCamp (2023)
+      </li>
+      <li>
+        <strong>Certificación:</strong> React Developer – Meta (2024)
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contact" id="contacto">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+      <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+    <div class="contact-links">
+      <a href="https://github.com/EmilyBulgin" target="_blank" title="GitHub">🐱</a>
+      <a href="https://linkedin.com/in/emilybulgin" target="_blank" title="LinkedIn">💼</a>
+      <a href="mailto:emily.bulgin@email.com" title="Email">✉️</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Emily Bulgin. Todos los derechos reservados.</p>
+    <a href="#">Política de privacidad</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html> 
